@@ -27,16 +27,16 @@
   </head>
   <body>
     <ul class="nav">
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>TYPOGRAPHY</li>
-      <li>CONTACTS</li>
-      <li class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-      </li>
-    </ul>
+      <li class="list-data">HOME</li>
+      <li class="list-data">ABOUT</li>
+      <li class="list-data">TYPOGRAPHY</li>
+      <li class="list-data">CONTACTS</li>
+      <div class="icons">
+       <li><i class="fa-brands fa-facebook"></i></li> 
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+    </div>
+      </ul>
 
     <div
       id="carouselExampleControls"
@@ -113,7 +113,7 @@
         <h1>RECENT VIDEOS</h1>
       </div>
       <div class="flexContainer">
-        <div class="video-container"></div>
+        <div id="video-container"></div>
         <div class="vediosFlexContainer">
           <div class="GridContainer">
             <div class="item">
@@ -144,30 +144,85 @@
         </div>
       </div>
       <div class="fleximgs">
-        <img src="images/fleximgs1.jpg" alt="" />
-        <img src="images/fleximgs2.jpg" alt="" />
-        <img src="images/fleximgs3.jpg" alt="" />
-        <img src="images/fleximgs4.jpg" alt="" />
-      </div>
+  <div class="imageWrapper">
+    <img src="images/fleximgs1.jpg" alt="" />
+    <div class="imagesContainer">
+      <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+      <h6>Dream Village</h6>
+      <p>sept 19, 2019</p>
+    </div>
+  </div>
+  <div class="imageWrapper">
+    <img src="images/fleximgs2.jpg" alt="" />
+    <div class="imagesContainer">
+      <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+      <h6>Ultra Music Festival</h6>
+      <p>sept 19, 2019</p>
+    </div>
+  </div>
+  <div class="imageWrapper">
+    <img src="images/fleximgs3.jpg" alt="" />
+    <div class="imagesContainer">
+      <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+      <h6>Electric Zoo</h6>
+      <p>sept 19, 2019</p>
+    </div>
+  </div>
+  <div class="imageWrapper">
+    <img src="images/fleximgs4.jpg" alt="" />
+    <div class="imagesContainer">
+      <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+      <h6>Life In Color Festival</h6>
+      <p>sept 19, 2019</p>
+    </div>
+  </div>
+</div>
 
-      <div class="lastDiv">
-        <div class="lastDivText">
-          <h6>FROM MY BLOG</h6>
-          <h3>LATEST NEWS</h3>
+    </div>
+    <div class="lastDiv">
+      <img src="images/plainbg.png" alt="" class="lastDivBg" />
+      <div class="lastDivText">
+        <h6>FROM MY BLOG</h6>
+        <h1>LATEST NEWS</h1>
+      </div>
+      <d id="biggerDivFlex">
+        <div class="transparent" id="transparent1"></div>
+        <div class="childDiv">
+          <img src="images\lastDivimg1.jpg" alt="" id="lastDivimg" />
+          <p class="innerDiv">SEP 19, 2019</p>
+          <h6>TEASING THE DEMO OF MY TRACK 'I NEED YOU'</h6>
+          <div><a class="lastText" href="">READ MORE</a></div>
+        </div>
+         <div class="transparent" ></div>
+        <div class="childDiv">
+          <img src="images\lastDivimg2.jpg" alt="" id="lastDivimg" />
+          <p class="innerDiv">SEP 19, 2019</p>
+          <h6>BEING YOUR FAVOURITE ARTIST TO YOUR CITY!</h6>
+          <div><a class="lastText" href="">READ MORE</a></div>
+        </div>
+         <div class="transparent" id="transparent2"></div>
+        <div class="childDiv">
+          <img src="images\lastDivimg3.jpg" alt="" id="lastDivimg" />
+          <p class="innerDiv">SEP 19, 2019</p>
+          <h6>NEW SINGLE: 'RAVE ON (RAVERZ 2019 ANTHEM)'</h6>
+          <div><a class="lastText" href="">READ MORE</a></div>
         </div>
       </div>
     </div>
 
-    <!-- <script>
-          let Item = document.getElementsByClassName("item");
-
-          Item.forEach((element) => {
-            element.addEventListener("click", () => {
-              element.style.backgroundColor = "yellow";
-            });
-          });
-        </script> -->
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

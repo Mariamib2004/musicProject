@@ -1,131 +1,136 @@
 @font-face {
-    font-family: "Mercury-Regular";
-    src: url("path/to/Mercury-Regular.woff") format("woff");
+  font-family: "Mercury-Regular";
+  src: url("path/to/Mercury-Regular.woff") format("woff");
 }
 @font-face {
-    font-family: "passion";
-    src: url("images/nothingyoucoulddobold.ttf") format("ttf");
+  font-family: "passion";
+  src: url("images/nothingyoucoulddobold.ttf") format("ttf");
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    /* height: 2000px; */
-    /* margin: 0; */
-    /* align-items: center;
+  /* height: 2000px; */
+  /* margin: 0; */
+  /* align-items: center;
   justify-content: center; */
 }
 .nav {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    background-color: #00173c;
-    color: white;
-    list-style: none;
-    width: 100%;
-    height: 60px;
-    margin: 0;
-    top: 0;
-    right: 0;
-    border-bottom-color: #ffffff;
-    /* background-color: transparent; */
-    background-color: rgb(196 196 196 / 36%);
-    z-index: 1000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #00173c;
+  color: white;
+  list-style: none;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  top: 0;
+  right: 0;
+  border-bottom-color: #ffffff;
+  background-color: transparent;
+  z-index: 1000;
 }
 .nav.scroll {
-    background-color: #00173c;
+  background-color: #00173c;
 }
 .icons {
-    display: flex;
-    position: fixed;
-    right: 200px;
-    gap: 10px;
-    font-size: 25px;
+  display: flex;
+  position: fixed;
+  right: 200px;
+  gap: 10px;
+  font-size: 25px;
 }
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover {
-    background-color: skyblue;
-    border-radius: 30px;
+.fa-facebook:hover {
+  color: skyblue;
+  border-radius: 30px;
 }
 
+.fa-twitter:hover {
+  color: skyblue;
+  border-radius: 30px;
+}
+.fa-instagram:hover {
+  color: skyblue;
+  border-radius: 30px;
+}
 /* ********************************************** */
 
 .carousel-control-prev,
 .carousel-control-next {
-    position: absolute;
-    top: 40%;
+  position: absolute;
+  top: 40%;
 }
 .firstdfirst {
-    background-image: url("images/bg1.1.jpg");
-    background-size: 100%;
-    width: 100%;
-    height: 800px;
-    /* bottom: 200px; */
-    top: 70px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
+  background-image: url("images/bg1.1.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+  /* bottom: 200px; */
+  top: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 button {
-    /* position: absolute; */
-    border-radius: 20px;
-    font-size: 20px;
-    /* position: relative; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* left: 800px;
+  /* position: absolute; */
+  border-radius: 20px;
+  font-size: 20px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* left: 800px;
     top: 200px; */
-    color: #ffffff;
-    background-color: rgba(34, 45, 79, 0.5);
-    border-color: rgba(255, 255, 255, 0.6);
-    width: 300px;
-    height: 60px;
+  color: #ffffff;
+  background-color: rgba(34, 45, 79, 0.5);
+  border-color: rgba(255, 255, 255, 0.6);
+  width: 300px;
+  height: 60px;
 }
 .firstdivtext {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 20px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
 }
 .firstdivtext h4,
 .secdivtext h4,
 .thirddivtext h4 {
-    text-align: center;
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 100;
-    font-style: normal;
-    color: aliceblue;
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+  color: aliceblue;
 }
 .firstdivtext h2,
 .secdivtext h2,
 .thirddivtext h2 {
-    font-family: "passion" serif;
-    text-align: center;
-    font-size: 100px;
-    color: aliceblue;
-    /* position: absolute; */
+  font-family: "Nothing You Could Do", "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 100px;
+  color: aliceblue;
+  /* position: absolute; */
 }
 .firstdivtext h3 {
-    /* position: absolute;
+  /* position: absolute;
     margin: 30px;
     top: 200px;
     right: 600px; */
 }
 .firstdivtext h1 {
-    /* position: absolute;
+  /* position: absolute;
     margin: 30px;
     top: 240px;
     right: 400px; */
 }
 .firstdivtext button {
-    /* position: absolute;
+  /* position: absolute;
     margin: 30px;
     top: 400px;
     right: 600px; */
@@ -137,118 +142,119 @@ button {
   height: 100%;
 } */
 button:hover {
-    background-color: #4ac4cf;
+  background-color: #4ac4cf;
 }
 .firstdsecond {
-    background-image: url("images/bg1.2.jpg");
-    background-size: 100%;
-    width: 100%;
-    height: 800px;
-    /* bottom: 200px; */
-    top: 70px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
+  background-image: url("images/bg1.2.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+  /* bottom: 200px; */
+  top: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 .secdivtext {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 20px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
 }
 .secdivtext h3 {
-    position: absolute;
-    bottom: 200px;
-    width: 250px;
-    font-size: 25px;
-    left: 100px;
+  position: absolute;
+  bottom: 200px;
+  width: 250px;
+  font-size: 25px;
+  left: 100px;
 }
 .secdivtext h1 {
-    position: absolute;
-    left: 60px;
-    width: 500px;
-    bottom: 20px;
+  position: absolute;
+  left: 60px;
+  width: 500px;
+  bottom: 20px;
 }
 .secdivtext button {
-    /* position: absolute;
+  /* position: absolute;
     left: 100px; */
 }
 .firstdthird {
-    background-image: url("images/bg1.2.jpg");
-    background-size: 100%;
-    width: 100%;
-    height: 800px;
-    /* bottom: 200px; */
-    top: 70px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
+  background-image: url("images/bg1.3.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 800px;
+  /* bottom: 200px; */
+  top: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 .thirddivtext {
-    /* position: absolute; */
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    gap: 20px;
+  /* position: absolute; */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
 }
 .thirddivtext h3 {
-    position: absolute;
-    bottom: 200px;
-    left: 100px;
-    width: 250px;
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  width: 250px;
 }
 .thirddivtext h1 {
-    position: absolute;
-    bottom: 30px;
-    width: 540px;
-    font-size: 70px;
+  position: absolute;
+  bottom: 30px;
+  width: 540px;
+  font-size: 70px;
 }
 .thirddivtext button {
-    /* position: absolute;
+  /* position: absolute;
     bottom: -70px;
     left: 100px; */
 }
 .secdiv {
-    background-image: url("images/bg2.jpg");
-    background-size: 100%;
-    /* position: relative; */
-    width: 100%;
-    height: 750px;
-    margin-top: 0;
-    padding-top: 50px;
+  background-image: url("images/bg2.jpg");
+  background-size: 100%;
+  /* position: relative; */
+  width: 100%;
+  height: 750px;
+  margin-top: 0;
+  padding-top: 50px;
 }
 .secdiv .text {
-    /* position: absolute; */
-    display: grid;
-    align-items: center;
-    /* justify-content: center; */
-    justify-items: center;
-    /* bottom: 300px; */
-    /* left: 500px; */
-    gap: 10px;
-    color: #ffffff;
+  /* position: absolute; */
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+  justify-items: center;
+  /* bottom: 300px; */
+  /* left: 500px; */
+  gap: 10px;
+  color: #ffffff;
 }
 .text h1 {
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    /* position: absolute; */
-    width: 600px;
-    bottom: 250px;
-    font-size: 70px;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  /* position: absolute; */
+  width: 600px;
+  bottom: 250px;
+  font-size: 70px;
 }
 .text h3 {
-    /* position: absolute; */
-    width: 800px;
-    bottom: 400px;
-    left: -70px;
-    color: rgb(192, 197, 202);
-    letter-spacing: 0.1em;
+  /* position: absolute; */
+  width: 800px;
+  bottom: 400px;
+  left: -70px;
+  color: rgb(192, 197, 202);
+  letter-spacing: 0.1em;
 }
 .text img {
-    /* position: absolute; */
-    bottom: -90px;
-    z-index: 1;
+  /* position: absolute; */
+  bottom: -90px;
+  z-index: 1;
 }
 /* .empty {
   position: relative;
@@ -260,186 +266,351 @@ button:hover {
   top: 20px;
 } */
 .text img {
-    /* position: absolute; */
-    /* width: 100%;
+  /* position: absolute; */
+  /* width: 100%;
   height: 100%; */
-    /* object-fit: cover; 
+  /* object-fit: cover; 
   bottom: 10px;
   */
 }
 .text button {
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    z-index: 2;
-    /* position: relative; */
-    bottom: -110px;
-    left: 130px;
-    background-color: #4ac4cf;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  z-index: 2;
+  /* position: relative; */
+  bottom: -110px;
+  left: 130px;
+  background-color: #4ac4cf;
 }
 .text button:hover {
-    background-color: #ffffff;
-    color: #4ac4cf;
+  background-color: #ffffff;
+  color: #4ac4cf;
 }
 .thirdmaindiv {
-    /* position: relative; */
+  /* position: relative; */
 }
-.post-event {
-    width: 660;
-    height: 440;
-}
-.post-event::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 8%;
-    left: 1%;
-    right: 1%;
-    bottom: 48%;
-    color: brown;
-    width: 660;
-    height: 440;
+/* .post-event {
+  width: 660;
+  height: 440;
 }
 .post-event::before {
-    background-image: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0.1) 0%,
-            rgba(255, 255, 255, 0.1) 10%,
-            transparent 10%,
-            transparent 90%,
-            rgba(255, 255, 255, 0.1) 90%,
-            rgba(255, 255, 255, 0.1) 100%
-        ),
-        linear-gradient(to right, rgba(255, 255, 255, 0.1) 6px, rgba(255, 255, 255, 0.1) 13.5%, transparent 13.5%, transparent 86.5%, rgba(255, 255, 255, 0.1) 86.5%, rgba(255, 255, 255, 0.1) 100%),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, transparent 100%, transparent 100%),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, transparent 100%, transparent 100%);
-    background-size: 100% 6px, 98.6% 6px, 6px 100%, 6px 100%;
-    background-position: 0 0, 6px 100%, 0 6px, 100% 6px;
-    background-repeat: no-repeat;
-    width: 660;
-    height: 440;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 8%;
+  left: 1%;
+  right: 1%;
+  bottom: 48%;
+  color: brown;
+  width: 660;
+  height: 440;
 }
+.post-event::before {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 10%,
+      transparent 10%,
+      transparent 90%,
+      rgba(255, 255, 255, 0.1) 90%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 6px,
+      rgba(255, 255, 255, 0.1) 13.5%,
+      transparent 13.5%,
+      transparent 86.5%,
+      rgba(255, 255, 255, 0.1) 86.5%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%,
+      transparent 100%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%,
+      transparent 100%,
+      transparent 100%
+    );
+  background-size: 100% 6px, 98.6% 6px, 6px 100%, 6px 100%;
+  background-position: 0 0, 6px 100%, 0 6px, 100% 6px;
+  background-repeat: no-repeat;
+  width: 660;
+  height: 440;
+} */
 .thirdmaindiv {
-    position: relative;
-    width: 100%;
-    /* height: 100%; */
-    overflow: hidden; /* Ensure any overflow is hidden */
-    /* margin-top: 0%; */
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 .bgdiv3 {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .thirdmaindiv h1 {
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    text-align: center;
-    left: 270px;
-    top: 80px;
-    letter-spacing: 0.2em;
-    font-weight: 300;
-    width: 600px;
-    white-space: nowrap;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  text-align: center;
+  left: 270px;
+  top: 80px;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  width: 600px;
+  white-space: nowrap;
 }
 .thirdmaindiv h3 {
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    color: #b5afaf;
-    /* position: absolute; */
-    left: 400px;
-    top: 100px;
-    letter-spacing: 0.2em;
-    width: 700px;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  color: #b5afaf;
+  left: 400px;
+  top: 100px;
+  letter-spacing: 0.2em;
+  width: 700px;
 }
 .thirdmaindivText {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    margin-top: 30px;
-    /* position: absolute; */
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
 }
-.video-container {
-    width: 600px;
-    height: 353px;
-    background-image: url(images/bigvideo1.jpg);
-    background-size: cover;
-    /* position: absolute; */
-    /* left: 360px; */
-    /* top: 300px; */
+#video-container {
+  width: 600px;
+  height: 353px;
+  background-image: url(images/bigvideo1.jpg);
+  background-size: cover;
 }
 .flexContainer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .vediosFlexContainer {
-    display: flex;
-
-    /* position: absolute; */
-    /* width: 690px; */
-    height: 400px;
-    /* flex-direction: column; */
-    /* gap: 20px; */
-    /* right: -100px; */
-    /* top: 300px; */
+  display: flex;
+  height: 400px;
 }
 .item {
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 300px;
-    height: 81px;
-    /* border: 1px solid;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  height: 81px;
+  /* border: 1px solid;
   border-right: #4ac4cf; */
-    /* object-fit: cover; */
-    /* flex-shrink: 1; */
+  /* object-fit: cover; */
+  /* flex-shrink: 1; */
 }
 .item h6 {
-    width: 400px;
-    font-weight: 700;
+  width: 400px;
+  font-weight: 700;
 }
 .GridContainer {
-    display: grid;
-    justify-content: space-between;
-    gap: 10px;
+  display: grid;
+  justify-content: space-between;
+  gap: 10px;
 }
 .item:hover .h6 {
-    color: #4ac4cf;
+  color: #4ac4cf;
 }
 .fleximgs {
-    display: flex;
-    /* position: absolute; */
-    width: 100%;
-    height: 371px;
-    /* bottom: 800px; */
-    object-fit: cover;
-    margin-top: 30px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 371px;
+  margin-top: 30px;
 }
+
+.fleximgs .imageWrapper {
+  position: relative;
+}
+
 .fleximgs img {
-    width: 400px;
-    height: 300px;
+  width: 400px;
+  height: 300px;
+  display: block;
 }
+
+.imagesContainer {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.731);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.corner {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+}
+
+.corner.top-left {
+  top: 15px;
+  left: 15px;
+  border-left: solid lightgray 1px;
+  border-top: solid lightgray 1px;
+}
+
+.corner.top-right {
+  top: 15px;
+  right: 15px;
+  border-right: solid lightgray 1px;
+  border-top: solid lightgray 1px;
+}
+
+.corner.bottom-left {
+  bottom: 15px;
+  left: 15px;
+  border-left: solid lightgray 1px;
+  border-bottom: solid lightgray 1px;
+}
+
+.corner.bottom-right {
+  bottom: 15px;
+  right: 15px;
+  border-right: solid lightgray 1px;
+  border-bottom: solid lightgray 1px;
+}
+
+.imageWrapper:hover .imagesContainer {
+  opacity: 1;
+}
+
+.imagesContainer p {
+  border-top: #4ac4cf solid 3px;
+}
+
 .lastDiv {
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
+  /* position: absolute; */
+  width: 100%;
+  height: 100vb;
+
+  margin-bottom: 0;
+}
+.lastDivBg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .lastDivText {
-    /* position: absolute;
+  /* position: absolute;
     width: 400px;
     height: 400px;
     display: grid;
     color: #ffffff;
     bottom: 0px; */
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 .lastDivText h6 {
-    color: #fff;
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #fff;
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 .lastDivText h3 {
-    color: #fff;
-    width: 100%;
-    /* position: absolute; */
-    font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #fff;
+  width: 100%;
+  /* position: absolute; */
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+#biggerDivFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 20px;
+  padding: 0;
+  height: 470px;
+}
+.childDiv {
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  background-color: #ffffff;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  z-index: 2;
+}
+#biggerDivFlex img {
+  width: 100%;
+}
+.innerDiv {
+  position: absolute;
+  color: white;
+  background-color: #4ac4cf;
+  border-radius: 15px;
+  width: 50%;
+  height: 7%;
+  /* text-align: center; */
+  top: 51%;
+  padding: 4px;
+}
+.childDiv h6 {
+  font-family: "Source Code Pro", Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-weight: bolder;
+  font-size: 17px;
+  width: 60%;
+  color: black;
+  position: absolute;
+  bottom: 120px;
+}
+.lastText {
+  position: absolute;
+  width: 100px;
+  right: 35%;
+  bottom: 30px;
+  border-top: 2px solid lightgray;
+  padding-top: 50px;
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+.transparent {
+  z-index: 1;
+  position: absolute;
+  width: 300px;
+  height: 510px;
+  border: 7px solid rgba(255, 255, 255, 0.1);
+  transition: 0.1s linear;
+  transition-property: all;
+}
+#transparent1 {
+  position: absolute;
+  left: 260px;
+}
+#transparent2 {
+  position: absolute;
+  right: 260px;
+}
+@media (min-width: 701px) and (max-width: 1024px) {
+}
+@media (max-width: 700px) {
+}
+@media (min-width: 1025px) {
 }
